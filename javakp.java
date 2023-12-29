@@ -1,7 +1,7 @@
 class javakp
 {
     public static void main(String arg[]){
-        int a=10,b=4;
+        int a=10,b=40;
         System.out.println(a+b);
 
 
