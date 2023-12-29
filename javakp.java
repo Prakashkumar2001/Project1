@@ -1,4 +1,4 @@
-class programskp
+class javakp
 {
     public static void main(String arg[]){
 
