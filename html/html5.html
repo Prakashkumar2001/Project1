@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssform.css">
+    <title>forms</title>
+</head>
+
+<body>
+
+    <form action="singnup.html" method ="get">
+
+        <div>
+            <label for="username">user name</label>
+            <input type="text" name="username" id="username" maxlength="10" required>
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" name="password" id="password" minlength="8" maxlength="8" required>
+        </div>
+        <div>
+            <label for="yearofbirth">Year of birth</label>
+            <input type="number" name="yearofbirth" id="yearofbirth" maxlength="4" min="1900" max="2024" step="2" required>
+        </div>
+        <div>
+            <label for="email">mail id</label>
+            <input type="email" name="email" id="email"  required>
+        </div>
+        <div>
+            <label for="dateofbirth">date of birth</label>
+            <input type="date" name="dateofbirth" id="dateofbirth"  required>
+        </div>
+        <div>
+            
+            <input type="checkbox" name="smsalert" id="smsalert"  required>
+            <label for="smsalert">SMS alert</label>
+        </div>
+        <div>
+            <input type="checkbox" name="emailalert" id="emailalert"  required>
+            <label for="emailalert">email alert</label>
+
+        </div>
+        <h4>Gender</h4>
+        <div>
+            <input type="radio" name="gender" id="male" value="male" required>
+            <label for="male">male</label>
+
+        </div>
+        <div>
+            <input type="radio" name="gender" id="female" value="female" required>
+            <label for="female">female</label>
+
+        </div>
+        <div>
+            <select name="BattingSytle " id="BattingSytle"  >
+                <option  value="" disable selected hidden > Select BattingSytle </option>
+                <option  value="Right Handed Batsman">Right Handed Batsman </option>
+                <option  value="Left Handed Batsman"> Left Handed Batsman </option>
+                
+                </select>
+                  <br><br>
+                
+        </div>
+
+
+
+        <button type="submit">sign up</button>
+        <button type="reset">reset</button>
+    </form>
+<br><br>
+    <form action="singnup.html" method ="get">
+        <div>
+            
+            <input type="text" name="username" placeholder="enter the user name" >
+        </div>
+        <div>
+            
+            <input type="password" name="password" placeholder="enter the password">
+        </div>
+        <div>
+            <label for="username1">user name</label>
+            <input type="text" name="username1" id="username1" "prakash">
+        </div>
+          <div>
+            <label for="comment">comment</label>
+            <textarea name="comment" id="comment" cols="30" rows="10">comment your feedback</textarea>
+        </div>
+        
+
+
+
+        <button type="submit">sign up</button>
+        
+    </form>
+
+     <br><br>
+    
+     <div class="kpkpkp">
+        <label class="textlabet" for="username">user name</label>
+        <input type="text" name="username" id="username" maxlength="10" required>
+    </div>
+    <div class="kpkpkp">
+        <label class="textlabet" for="password">password</label>
+        <input type="password" name="password" id="password" minlength="8" maxlength="8" required>
+    </div>
+    <div class="kpkpkp">
+        <label class="textlabet" for="yearofbirth">Year of birth</label>
+        <input type="number" name="yearofbirth" id="yearofbirth" maxlength="4" min="1900" max="2024" step="2" required>
+    </div>
+    <div class="kpkpkp">
+        <input  type="radio" name="gender" id="male" value="male" required>
+        <label for="male">male</label>
+
+    </div>
+    <div class="kpkpkp">
+        <input type="radio" name="gender" id="female" value="female" required>
+        <label for="female">female</label>
+
+    
+</div>
+</body>
+</html>

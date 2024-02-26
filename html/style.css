@@ -1,0 +1,19 @@
+h3,h2{
+    color: blue;
+    
+}
+*{
+    color: blueviolet;
+}
+#kpkp{
+    color: rgb(196, 76, 76);
+}
+.kp{
+    color: brown;
+}
+div>p{
+    color: rgb(98, 219, 41);
+}
+div a{
+    color: aquamarine;
+}

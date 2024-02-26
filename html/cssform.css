@@ -1,0 +1,55 @@
+h1{
+     color:rgb(250, 179, 179);
+     background-color: rgb(146, 214, 191);
+     font-size: 300%;
+     font-weight: bolder;
+     font-style: italic;
+     font-stretch: extra-expanded;
+     text-transform: uppercase;
+     text-decoration: underline;
+     letter-spacing: 0.24em;
+     word-spacing: 0.4em;
+     text-align: center;
+     border: 2px solid rgb(97, 112, 97);
+     width: 700px;
+
+
+}
+body{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+p{
+    line-height: 1.4em;
+    text-align: justify;
+    text-indent: 40px;
+    width: 400px;
+    height: 200px;
+    border: 3px solid rgb(145, 107, 80);
+    background-color: rgb(129, 197, 197);
+}
+p:first-letter{
+    font-size: 2em;
+}
+table{
+    margin: auto;
+    width: 300px;
+    border-collapse: collapse;
+}
+th{
+    color: rgb(37, 99, 76);
+    background-color: rgb(178, 163, 192);
+}
+
+tr{
+    color: rgb(56, 56, 145);
+
+}
+
+tr:nth-child(even){
+    background-color: rgb(170, 169, 167);
+}
+
+.kpkpkp .textlabet{
+ display: block;
+}
